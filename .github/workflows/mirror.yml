@@ -8,4 +8,4 @@ jobs:
     environment: production
     steps:
       - name: deploy
-        run: echo ${{ secrets.TESTING }}
+        run: echo "${{ vars.VAR }}"
