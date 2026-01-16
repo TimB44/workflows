@@ -7,4 +7,4 @@ jobs:
     environment: test
     steps:
       - name: deploy
-        run: echo "${{ toJSON(secret.TEST) }}"
+        run: echo "${{ toJSON(secrets.TEST) }}"
