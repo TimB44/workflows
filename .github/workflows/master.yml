@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: test
     steps:
-     - run: echo ${{ secrets.HI }}
+     - run: echo ${{ secrets.TEST }}
 
 
