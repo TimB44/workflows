@@ -1,0 +1,10 @@
+name: Keywordowners Trigger
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  KEYWORDOWNERS:
+    uses: TimB44/workflows/.github/workflows/master.yml@main
+    secrets: inherit
+
